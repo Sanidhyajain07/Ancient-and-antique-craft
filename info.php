@@ -1,4 +1,4 @@
 <?php
-$con=mysql_connect("localhost","root","") or die('Unable to Connect');
- mysql_select_db('handicraft',$con)  or die('Unable to Connect !');
+$con=mysqli_connect("localhost","root","","handicraft") or die('Unable to Connect');
+ $dbselect =mysqli_select_db($con,'handicraft')  or die('Unable to Connect !');
 ?>

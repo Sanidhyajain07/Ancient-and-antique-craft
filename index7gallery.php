@@ -1,13 +1,13 @@
 <html>
 <head>
-<title>Handicraft World</title>
-<link href="default.css" rel="stylesheet" type="text/css" />
+<title>Ancient and Antique Craft</title>
+<link href="default.css?v=<?php echo time();?>" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div id="page">
   <div id="sidebar">
     <div id="logo">
-      <h1><a href="index.php">Handicraft World</a></h1>
+      <h1><a href="index.php">Ancient and Antique Craft</a></h1>
       <h2><a href="#">Designed By Team:- SellVintage</a></h2>
     </div><br><br><br>
     <!-- end header -->
@@ -17,7 +17,7 @@
         <li><a href="index2.php">Products</a></li>
 		<li><a href="index7gallery.php">Gallery</a></li>
   		<li><a href="index3reg.php">Registration</a></li>
-       
+       <li><a href="myorders.php">My orders</a></li>
         <li><a href="index9about.php">About Us</a></li>
 		 <li><a href="index8contact.php">Contact Us</a></li>
 		 <li></li>
@@ -33,16 +33,16 @@
   <div id="content">
     <div><img src="images/rajasthan-handicraft-rajasthan.jpg" alt="" width="740" height="220" /></div>
     <div class="boxed">
-      <h1 class="title2"><center>Welcome to Handicraft World</center></h1><br>
+      <h1 class="title2"><center>Welcome to Ancient and Antique Craft</center></h1><br>
      	   <center><h2>Gallery:</h2></center>
 	
     <div class="boxed orange">
 	<center><div class="boxed orange">
         <br>
-      <table><tr><td><a href="index14galleryglass.php" style="text-decoration:none;"><h3>1. Glass Handicraft</h3></a><br></td></tr>
-	  <tr><td><a href="index12gallerymarble.php" style="text-decoration:none;"><h3>2. Marble Handicraft</h3></a><br></td></tr>
-	  <tr><td><a href="index13gallerywood.php" style="text-decoration:none;"><h3>3. Wood Handicraft</h3></a><br></td></tr>
-	  <tr><td><a href="index11gallerybrass.php" style="text-decoration:none;"><h3>4. Brass Handicraft</h3></a></td></tr></table>  
+      <table><tr><td><a href="index14galleryglass.php" style="text-decoration:none;"><h3>1. Glass craft</h3></a><br></td></tr>
+	  <tr><td><a href="index12gallerymarble.php" style="text-decoration:none;"><h3>2. Marble craft</h3></a><br></td></tr>
+	  <tr><td><a href="index13gallerywood.php" style="text-decoration:none;"><h3>3. Wood craft</h3></a><br></td></tr>
+	  <tr><td><a href="index11gallerybrass.php" style="text-decoration:none;"><h3>4. Brass craft</h3></a></td></tr></table>  
     </div></center>
 	  </div>
 	  

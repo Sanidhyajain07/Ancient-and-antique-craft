@@ -1,7 +1,7 @@
 <html>
 <head>
-<title>Handicraft World</title>
-<link href="default.css" rel="stylesheet" type="text/css" />
+<title>Ancient and Antique Craft</title>
+<link href="default.css?v=<?php echo time();?>" rel="stylesheet" type="text/css" />
 <style>
 		  
 input[type="text"],input[type="password"],select
@@ -264,8 +264,8 @@ var p,q,r,s;
 <div id="page">
   <div id="sidebar">
     <div id="logo">
-      <h1><a href="index.php">Handicraft World</a></h1>
-      <h2><a href="#">Designed By:- Dipesh Kumawat</a></h2>
+      <h1><a href="index.php">Ancient and Antique Craft</a></h1>
+      <h2><a href="#">Designed By:- SellVintage</a></h2>
     </div>
     <!-- end header --><br><br><br>
     <div id="menu"><br><br><br><br>
@@ -288,7 +288,7 @@ var p,q,r,s;
   <div id="content">
     <div><img src="images/rajasthan-handicraft-rajasthan.jpg" alt="" width="740" height="220" /></div>
     <div class="boxed">
-      <h1 class="title2"><center>Welcome to Handicraft World</center></h1><br>
+      <h1 class="title2"><center>Welcome to Ancient and Antique Craft</center></h1><br>
      <h2><font color="#B35900"><center>REGISTRATION FORM</center></font></h2>
 	 
 <!-- table begin-->
@@ -368,11 +368,11 @@ $phone = $_POST['phone'];
 $address = $_POST['address'];
     
 
- $con=mysql_connect("localhost","root","") or die('Unable to Connect');
-	   mysql_select_db('handicraft',$con)  or die('Unable to Connect !');
+ $con = mysqli_connect("localhost","root","","handicraft") or die('Unable to Connect');
+	   $dbselect = mysqli_select_db($con, 'handicraft')  or die('Unable to Connect !');
 	   $query='insert into registration(username,password,gender,email,phone,address) values ("'.$_POST['uname'].'","'.$_POST['pass'].'","'.$_POST['g'].'","'.$_POST['email'].'","'.$_POST['phone'].'","'.$_POST['address'].'") ';
 
-if(mysql_query($query))
+if(mysqli_query($con,$query))
 {
 	echo "<script> alert('$uname , Successfully Completed Registration Form One Record Inserted');</script><br>";
 	
@@ -380,9 +380,9 @@ if(mysql_query($query))
 	 
  else
  {
- die('Error in query:$query .'.mysql_error());
+ die('Error in query:$query .'.mysqli_error($con));
  }
-mysql_close($con);
+mysqli_close($con);
  
 	   }
 

@@ -1,13 +1,13 @@
 <html>
 <head>
-<title>Handicraft World</title>
-<link href="default.css" rel="stylesheet" type="text/css" />
+<title>Ancient and Antique Craft</title>
+<link href="default.css?v=<?php echo time();?>" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div id="page">
   <div id="sidebar">
     <div id="logo">
-      <h1><a href="index.php">Handicraft World</a></h1>
+      <h1><a href="index.php">Ancient and Antique Craft</a></h1>
       <h2><a href="#">Designed By Team:- SellVintage</a></h2>
     </div><br><br><br><br><br>
     <!-- end header -->
@@ -29,10 +29,11 @@
   <div id="content">
     <div><img src="images/rajasthan-handicraft-rajasthan.jpg" alt="" width="740" height="220" /></div>
     <div class="boxed">
-      <h1 class="title2"><center>Welcome to Handicraft World</center></h1>
-      <p><strong><font face="arial">Marble Handicraft:<br></strong>	
-	  <center><img src="images/5182012101704_22.jpg" height="200" width="200"><br><br>Product No:MH8822<br><b>Price: Rs-3500/-<br></b><a href="MH8822.php">BUY THIS</a><br><br>
-	  <img src="images/Capture.JPG" height="250" width="250"><br><br>Product No:MH8823<br><b>Price: Rs-10000/-<br></b><a href="MH8823.php">BUY THIS</a><br><br><a href="index12gallerymarble.php"><font color="#2A00AA"><b>Previous Page</b></a></center></font>
+      <h1 class="title2"><center>Welcome to Ancient and Antique Craft</center></h1>
+      <p><strong><font face="arial">Marble craft:<br></strong>	
+	  <center><img src="images/5182012101704_221.jpg" height="200" width="200"><br><br>Product No:MH8822<br><b>Price: Rs-3500/-<br></b><a href="MH8822.php">BUY THIS</a><br><br>
+      
+	  <img src="images/Capture12.JPG" height="250" width="250"><br><br>Product No:MH8823<br><b>Price: Rs-10000/-<br></b><a href="MH8823.php">BUY THIS</a><br><br><a href="index12gallerymarble.php"><font color="#2A00AA"><b>Previous Page</b></a></center></font>
 	  
     </div>
     <div class="boxed orange">

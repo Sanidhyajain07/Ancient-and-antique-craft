@@ -1,13 +1,13 @@
 <html>
 <head>
-<title>Handicraft World</title>
-<link href="default.css" rel="stylesheet" type="text/css" />
+<title>Ancient and Antique Craft</title>
+<link href="default.css?v=<?php echo time();?>" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div id="page">
   <div id="sidebar">
     <div id="logo">
-      <h1><a href="index.php">Handicraft World</a></h1>
+      <h1><a href="index.php">Ancient and Antique Craft</a></h1>
       <h2><a href="#">Designed By Team:- SellVintage</a></h2>
     </div><br><br> <br><br>
 
@@ -33,10 +33,11 @@
   <div id="content">
     <div><img src="images/rajasthan-handicraft-rajasthan.jpg" alt="" width="740" height="220" /></div>
     <div class="boxed">
-      <h1 class="title2"><center>Welcome to Handicraft World</center></h1>
-      <p><strong><font face="arial">Wood Handicraft:<br></strong>	
-	  <center><img src="images/Brass-Handicrafts e.jpg" height="250" width="250"><br><br>Product No:WH9820<br><b>Price: Rs-4000/-<br></b><a href="#">BUY THIS</a><br><br>
-	  <img src="images/12026Wood Handicraft - C.jpg" height="150" width="150"><br><br>Product No:WH9821<br><b>Price: Rs-2000/-<br></b><a href="#">BUY THIS</a><br><br><a href="index13.1gallerywood.php"><font color="#2A00AA"><b>Next Page</b></a></center></font>
+      <h1 class="title2"><center>Welcome to Ancient and Antique Craft</center></h1>
+      <p><strong><font face="arial">Wood craft:<br></strong>	
+	  <center><img src="images/Brass-Handicrafts e1.jpg" height="250" width="250"><br><br>Product No:WH9820<br><b>Price: Rs-4000/-<br></b><a href="WH9820.php">BUY THIS</a><br><br>
+	  
+    <img src="images/12026Wood Handicraft - C.jpg" height="150" width="150"><br><br>Product No:WH9821<br><b>Price: Rs-2000/-<br></b><a href="WH9821.php">BUY THIS</a><br><br><a href="index13.1gallerywood.php"><font color="#2A00AA"><b>Next Page</b></a></center></font>
 	  
 	  
     </div>

@@ -1,13 +1,13 @@
 <html>
 <head>
-<title>Handicraft World</title>
-<link href="default.css" rel="stylesheet" type="text/css" />
+<title>Ancient and Antique Craft</title>
+<link href="default.css?v=<?php echo time();?>" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div id="page">
   <div id="sidebar">
     <div id="logo">
-      <h1><a href="index.php">Handicraft World</a></h1>
+      <h1><a href="index.php">Ancient and Antique Craft</a></h1>
       <h2><a href="#">Designed By Team:- SellVintage</a></h2>
     </div><br><br><br><br>
     <!-- end header -->
@@ -29,10 +29,10 @@
   <div id="content">
     <div><img src="images/rajasthan-handicraft-rajasthan.jpg" alt="" width="740" height="220" /></div>
     <div class="boxed">
-      <h1 class="title2"><center>Welcome to Handicraft World</center></h1>
-      <p><strong><font face="arial">Brass Handicraft:<br></strong>	
-	  <center><img src="images/Brass-Ganesh-with-Mushika-Statue-Vrindavan-Home-Shoppe-MBAVRINDA000205_1.jpg" height="200" width="250"><br><br>Product No:BH9820<br><b>Price: Rs-7000/-<br></b><a href="#">BUY THIS</a><br><br>
-	  <img src="images/1056541-250x250.jpg" height="150" width="150"><br><br>Product No:BH9821<br><b>Price: Rs-3000/-<br></b><a href="#">BUY THIS</a><br><br><a href="index11.1gallerybrass.php"><font color="#2A00AA"><b>Next Page</b></a></center></font>
+      <h1 class="title2"><center>Welcome to Ancient and Antique Craft</center></h1>
+      <p><strong><font face="arial">Brass craft:<br></strong>	
+	  <center><img src="images/Brass-Ganesh-with-Mushika-Statue-Vrindavan-Home-Shoppe-MBAVRINDA000205_1.jpg" height="200" width="250"><br><br>Product No:BH9820<br><b>Price: Rs-7000/-<br></b><a href="BH9820.php">BUY THIS</a><br><br>
+	  <img src="images/1056541-250x2501.jpeg" height="150" width="150"><br><br>Product No:BH9821<br><b>Price: Rs-3000/-<br></b><a href="BH9821.php">BUY THIS</a><br><br><a href="index11.1gallerybrass.php"><font color="#2A00AA"><b>Next Page</b></a></center></font>
 	  
 	  
     </div>

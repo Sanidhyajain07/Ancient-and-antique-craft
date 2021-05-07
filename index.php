@@ -1,13 +1,13 @@
 <html>
 <head>
-<title>Handicraft World</title>
-<link href="default.css" rel="stylesheet" type="text/css" />
+<title>Ancient and Antique Craft</title>
+<link href="default.css?v=<?php echo time();?>" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div id="page">
   <div id="sidebar">
     <div id="logo">
-      <h1><a href="index.php">Handicraft World</a></h1>
+      <h1><a href="index.php">Ancient and Antique Craft</a></h1>
       <h2><a href="#">Designed By Team:- SellVintage</a></h2>
     </div><br><br>
     <!-- end header -->
@@ -42,18 +42,18 @@
   <div id="content">
     <div><img src="images/rajasthan-handicraft-rajasthan.jpg" alt="" width="740" height="220" /></div>
     <div class="boxed">
-      <h1 class="title2"><center>Welcome to Handicraft World</center></h1><br>
-      <p><strong>What is Handicraft ?</strong><br><br></p>
-        <p>Handicraft is a type of work where useful and decorative things are made completely by hand or by using only some simple tools. It is usually termed as traditional means of making goods. The handicraft products often have cultural and/or religious significance. Items made by mass production or machines are not handicraft goods.</p>
+      <h1 class="title2"><center>Welcome to Ancient and Antique Craft</center></h1><br>
+      <p><strong>What is Ancient and Antique Craft ?</strong><br><br></p>
+        <p>A true antique (Latin: antiquus; 'old', 'ancient') is an item perceived as having value because of its aesthetic or historical significance, and often defined as at least 100 years old (or some other limit), although the term is often used loosely to describe any object that is old. It is an object that represents a previous era or time period in human history. Vintage and collectible are used to describe items that are old, but do not meet the 100-year criterion.</p>
     </div>
     <div class="boxed orange">
       <div class="col-one">
         <h2 class="title3">Products Available:</h2>
         <table style="color:#FFFFFF"  height="150px" cellpadding="5px" cellspacing="5px" align="center">
-          <tr><td>1. Glass Handicraft</td></tr>
-          <tr><td>2. Wood Handicraft</td></tr>
-          <tr><td>3. Marble Handicraft</td></tr>
-          <tr><td>4. Brass Handicraft</td></tr>
+          <tr><td>1. Glass craft</td></tr>
+          <tr><td>2. Wood craft</td></tr>
+          <tr><td>3. Marble craft</td></tr>
+          <tr><td>4. Brass craft</td></tr>
           </table>
       </div>
       <div class="col-two">

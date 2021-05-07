@@ -1,7 +1,7 @@
 <html>
 <head>
-<title>Handicraft World</title>
-<link href="default.css" rel="stylesheet" type="text/css" />
+<title>Ancient and Antique Craft</title>
+<link href="default.css?v=<?php echo time();?>" rel="stylesheet" type="text/css" />
 
 <script type="text/javascript">
 function f_name(f2)
@@ -82,8 +82,8 @@ function f_msg(f2)
 <div id="page">
   <div id="sidebar">
     <div id="logo">
-      <h1><a href="index.php">Handicraft World</a></h1>
-      <h2><a href="#">Designed By:- Dipesh Kumawat</a></h2>
+      <h1><a href="index.php">Ancient and Antique Craft</a></h1>
+      <h2><a href="#">Designed By:- SellVintage</a></h2>
     </div>
 	<br>
     <!-- end header -->
@@ -108,7 +108,7 @@ function f_msg(f2)
   <div id="content">
     <div><img src="images/rajasthan-handicraft-rajasthan.jpg" alt="" width="740" height="220" /></div>
     <div class="boxed">
-      <h1 class="title2"><center>Welcome to Handicraft World</center></h1>
+      <h1 class="title2"><center>Welcome to Ancient and Antique Craft</center></h1>
      
     </div>
 	   
@@ -174,7 +174,7 @@ $Message=$_POST['msg'];
   require_once('info.php');
    $query='insert into contact(name,email,phone,address,message) values ("'.$_POST['name'].'","'.$_POST['email'].'","'.$_POST['phone'].'","'.$_POST['add'].'","'.$_POST['msg'].'") ';
 
-if(mysql_query($query))
+if(mysqli_query($con,$query))
 {
 	echo "<script> alert('$name , Successfully Completed Feedback Form One Record Inserted');</script><br>";
 	
@@ -182,9 +182,9 @@ if(mysql_query($query))
 	 
  else
  {
- die('Error in query:$query .'.mysql_error());
+ die('Error in query:$query .'.mysqli_error($con));
  }
-mysql_close($con);
+mysqli_close($con);
  
 	   }
 ?>

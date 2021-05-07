@@ -1,13 +1,13 @@
 <html>
 <head>
-<title>Handicraft World</title>
-<link href="default.css" rel="stylesheet" type="text/css" />
+<title>Ancient and Antique Craft</title>
+<link href="default.css?v=<?php echo time();?>" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div id="page">
   <div id="sidebar">
     <div id="logo">
-      <h1><a href="index.php">Handicraft World</a></h1>
+      <h1><a href="index.php">Ancient and Antique Craft</a></h1>
       <h2><a href="#">Designed By Team:- SellVintage</a></h2>
     </div><br><br><br>
     <!-- end header -->
@@ -31,12 +31,12 @@
   <div id="content">
     <div><img src="images/rajasthan-handicraft-rajasthan.jpg" alt="" width="740" height="220" /></div>
     <div class="boxed">
-      <h1 class="title2"><center>Welcome to Handicraft World</center></h1>
+      <h1 class="title2"><center>Welcome to Ancient and Antique Craft</center></h1>
 	
-	    <br><center><h2>Brass Handicraft</h2></center><br>
+	    <br><center><h2>Brass craft</h2></center><br>
 	   <p style="text-align:justify;">
- Brass has been known to human since prehistoric times. It is used for many applications due to its unique features including high strength, corrosion resistance and formability. Our exclusive range of brass handicrafts is developed using best quality brass and contains various bar accessories, home decor accessories, tablewares and many other items. These brass handicrafts are acclaimed by our global clients owing to their versatile designs, impeccable workmanship and all the more most reasonable prices.</p><br>
-<center><img src="images/brass-product.JPG" height="292" width="292"></center>
+ Brass has been known to human since prehistoric times. It is used for many applications due to its unique features including high strength, corrosion resistance and formability. Our exclusive range of brass handicrafts is developed using best quality brass and contains various bar accessories, home decor accessories, tablewares and many other items. These brass crafts are acclaimed by our global clients owing to their versatile designs, impeccable workmanship and all the more most reasonable prices.</p><br>
+<center><img src="images/brass-product1.JPG" height="292" width="292"></center>
 	  
 
 	  

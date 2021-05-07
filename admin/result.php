@@ -12,17 +12,17 @@ if(isset($_POST['submit']))
 {
 	$id=$_POST['serial']; 
 	 
-	$con=mysql_connect("localhost","root","") or die('Unable to Connect');
-	mysql_select_db('handicraft',$con)  or die('Unable to Connect !');
+	$con=mysqli_connect("localhost","root","","handicraft") or die('Unable to Connect');
+	mysqli_select_db($con,'handicraft')  or die('Unable to Connect !');
 
 	$query="SELECT id,username,phone,email,address FROM registration WHERE id='".$_POST['serial']."'";
-	$result=mysql_query($query);
-	$count=mysql_num_rows($result);
+	$result=mysqli_query($con,$query);
+	$count=mysqli_num_rows($result);
 
 	//echo "<table id='result'>";
 
 	echo "<tr>";
-   echo "<td>ID</td>";
+    echo "<td>ID</td>";
 	echo "<td>NAME</td>";
 	echo "<td>PHONE NO</td>";	
 	echo "<td>EMAIL ID</td>";
@@ -32,7 +32,7 @@ if(isset($_POST['submit']))
 
 	if ($count==1)
 	{
-		while($row=mysql_fetch_row($result))
+		while($row=mysqli_fetch_row($result))
 		{
 			$nam=$row[0];
 			$phn=$row[1];
@@ -59,7 +59,7 @@ if(isset($_POST['submit']))
 
 	}
 
-	mysql_close($con);
+	mysqli_close($con);
 
 }	
 ?>

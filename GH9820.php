@@ -1,13 +1,13 @@
 <html>
 <head>
-<title>Handicraft World</title>
-<link href="default.css" rel="stylesheet" type="text/css" />
+<title>Ancient and Antique Craft</title>
+<link href="default.css?v=<?php echo time();?>" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div id="page">
   <div id="sidebar">
     <div id="logo">
-      <h1><a href="index.php">Handicraft World</a></h1>
+      <h1><a href="index.php">Ancient and Antique Craft</a></h1>
       <h2><a href="#">Designed By Team:- SellVintage</a></h2>
     </div>
     <!-- end header -->
@@ -32,14 +32,18 @@
   <div id="content">
     <div><img src="images/rajasthan-handicraft-rajasthan.jpg" alt="" width="740" height="220" /></div>
     <div class="boxed">
-    <h1 class="title2"><center>Welcome to Handicraft World</center></h1><br><br>
+    <h1 class="title2"><center>Welcome to Ancient and Antique Craft</center></h1><br><br>
      
 	<center><div class="boxed orange">
         <br>
       	 <center><img src="images/Credit-100-glass-handicraft-color-diversity-crystal-car-perfume-bottle-free-transport-with-10non-slip-mats.jpg" height="200" width="200"><br><br>Product No:GH9820<br><b>Price: Rs-2000/-<br></b>
 		 <b>Cash on Delivery: During 6 - 7 Days <br></b><br>
+     <a href="myorders.php">
 		<input type="submit" name="submit" value="Confirm">
-	    <input type="reset" name="reset" value="Cancel">
+  </a>
+	    <a href="index14galleryglass.php">
+      <input type="reset" name="reset" value="Cancel">
+    </a>
 
 	 
     </div></center>

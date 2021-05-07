@@ -1,40 +1,26 @@
-<?PHP 
-	session_start();
-	include 'info.php';
-	$username=$_POST['uname'];
-    $password=$_POST['pass'];
-	if(isset($_POST['submit']))
-	{
-		
-if($username=="")
-{
-	header('location:index.php');
-	
-}
- if($password=="")
-{
-	header('location:index.php');
-	
-}
- else
- {
-$query="select * from registration where username='".$username."' and password='".$password."'";
-$res=mysql_query($query);
-$res1=mysql_fetch_array($res);
-if($res1!="")
-
-  
-{
-$_SESSION['uname']=$res1[username];
-
-header('Location: index7gallery.php');
-}
-	 
-else
-{
-header('Location: index.php');
-}
-}
-	}
-	
-?>
+<?php      
+    include('info.php');  
+    $username = $_POST['uname'];  
+    $password = $_POST['pass'];  
+      
+        //to prevent from mysqli injection  
+        $username = stripcslashes($username);  
+        $password = stripcslashes($password);  
+        $username = mysqli_real_escape_string($con, $username);  
+        $password = mysqli_real_escape_string($con, $password);  
+      
+        $sql = "select *from registration where username = '$username' and password = '$password'";  
+        $result = mysqli_query($con, $sql);  
+        $row = mysqli_fetch_array($result, MYSQLI_ASSOC);  
+        $count = mysqli_num_rows($result);  
+          
+          
+        if($count == 1){  
+          
+           header('Location: index7gallery.php');
+        }  
+        else{  
+            
+           header('Location: index.php'); 
+        }     
+?>  

@@ -7,7 +7,7 @@ body {
 	background:#151515;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 13px;
-	color: #666666;
+	color: #000000;
 }
 
 a {
@@ -33,7 +33,7 @@ a:hover {
 	background: url(images/img09.gif) repeat-x left bottom;
 	font-size: 227%;
 	font-weight:400;
-	color:#FF5F00;
+	color:#800080;
 }
 
 .title3 {
@@ -55,12 +55,12 @@ a:hover {
 
 .orange {
 	margin: 20px 30px;
-	background:#FF3F00;
-	color: #FFFFFF;
+	background:	#6495ED;
+	color: #800080;
 }
 
 .orange a {
-	color: #FFFFFF;
+	color: #800080;
 }
 
 .col-one {

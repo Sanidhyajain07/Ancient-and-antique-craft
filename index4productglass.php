@@ -1,13 +1,13 @@
 <html>
 <head>
-<title>Handicraft World</title>
-<link href="default.css" rel="stylesheet" type="text/css" />
+<title>Ancient and Antique Craft</title>
+<link href="default.css?v=<?php echo time();?>" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div id="page">
   <div id="sidebar">
     <div id="logo">
-      <h1><a href="index.php">Handicraft World</a></h1>
+      <h1><a href="index.php">Ancient and Antique Craft</a></h1>
       <h2><a href="#">Designed By Team:- SellVintage</a></h2>
     </div><br><br><br><br><br>
     <!-- end header -->
@@ -29,12 +29,11 @@
   <div id="content">
     <div><img src="images/rajasthan-handicraft-rajasthan.jpg" alt="" width="740" height="220" /></div>
     <div class="boxed">
-      <h1 class="title2"><center>Welcome to Handicraft World</center></h1>
-	  <br><center><h2>Glass Handicraft</h2></center>
+      <h1 class="title2"><center>Welcome to Ancient and Antique Craft</center></h1>
+	  <br><center><h2>Glass craft</h2></center>
     <br>  <p style="text-align:justify;">
-	  The magic of handicrafts in art is seen in the kiln work of rural India. It is great to find magical and aesthetic representation of art in glass. Colored and painted glass works is perfect to create an aura in your decor. Used as decorative pieces, jewelry, glass works, kitchen utilities and lamps, glass is one of the chief works of India’s art and craft. Devising modern trends of tempering and coloring, artisans are now benefiting from the innovations in the glass factories.<br>
-	  Glass paintings are exclusive as they impart a surreal color to your decor. It is interesting to note that artisans have maintained the regular items in mirror work, decorative items in glass and lamps. Unique creations along with wrought iron are seen in glass works to adorn homes.
-Large bowls in cut glass, drink ware as well as unique kitchen articles form an exclusive collection for homes. Jars as well as bowls are regular creations. It is great to explore the works in handicrafts pertaining to glass in mini chandleries and ceiling lights. Candle glass holders are also a unique creation.<br></p>
+	  It is great to find magical and aesthetic representation of art in glass. Colored and painted glass works is perfect to create an aura in your decor. Used as decorative pieces, jewelry, glass works, kitchen utilities and lamps, glass is one of the chief works of India art and craft. Devising modern trends of tempering and coloring, artisans are now benefiting from the innovations in the glass factories.<br>
+	  Glass art refers to individual works of art that are substantially or wholly made of glass. It ranges in size from monumental works and installation pieces to wall hangings and windows, to works of art made in studios and factories, including glass jewelry and tableware.<br></p>
 <center><img src="images/Glass-Handicraft_250x250.jpg" height="240" width="240"></center>
 	 
     </div>
