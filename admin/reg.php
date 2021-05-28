@@ -7,11 +7,11 @@
 <div id="page">
   <div id="sidebar">
     <div id="logo">
-      <h1><a href="index.php">Ancient and Antique Craft</a></h1>
-      <h2><a href="#">Designed By:- SellVintage</a></h2>
+      <h1><a href="#"></a></h1>
+      <h2><a href="index.php">Designed By Team:- SellVintage</a></h2>
     </div><br><br>
     <!-- end header -->
-	 <img src="images/b4.png" width="240px" height="350px">
+	 <img src="images/nb4.png" width="240px" height="350px">
     <!-- end menu -->
    
   </div>

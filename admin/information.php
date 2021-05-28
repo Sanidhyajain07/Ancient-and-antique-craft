@@ -7,11 +7,11 @@
 <div id="page">
   <div id="sidebar">
     <div id="logo">
-      <h1><a href="index.php">Ancient and Antique Craft</a></h1>
-      <h2><a href="#">Designed By:- SellVintage</a></h2>
+      <h1><a href="#"></a></h1>
+      <h2><a href="index.php">Designed By Team:- SellVintage</a></h2>
     </div><br><br>
     <!-- end header -->
-	 <img src="images/b4.png" width="240px" height="350px">
+	 <img src="images/nb4.png" width="240px" height="350px">
     <!-- end menu -->
    
   </div>
@@ -26,7 +26,7 @@
       <table><tr><td><a href="search.php" style="text-decoration:none;"><h3>1. Search Customer Record</h3></a><br></td></tr>
 	  <tr><td><a href="contact.php" style="text-decoration:none;"><h3>2. Contact Info</h3></a><br></td></tr>
 	  <tr><td><a href="reg.php" style="text-decoration:none;"><h3>3. Registration Record </h3></a><br></td></tr>
-	  <tr><td><a href="index.php" style="text-decoration:none;"><h3>4. Logout</h3></a></td></tr>
+	  <tr><td><a href="products.php" style="text-decoration:none;"><h3>4. Product Record</h3></a><br></td></tr><tr><td><a href="index.php" style="text-decoration:none;"><h3>5. Logout</h3></a></td></tr>
 	  </table>  
     </div></center>
     </div>

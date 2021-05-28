@@ -7,8 +7,8 @@
 <div id="page">
   <div id="sidebar">
     <div id="logo">
-      <h1><a href="index.php">Ancient and Antique Craft</a></h1>
-      <h2><a href="#">Designed By Team:- SellVintage</a></h2>
+      <h1><a href="#"></a></h1>
+      <h2><a href="index.php">Designed By Team:- SellVintage</a></h2>
     </div><br><br><br>
     <!-- end header -->
     <div id="menu"><br><br><br>
@@ -17,7 +17,7 @@
         <li><a href="index2.php">Products</a></li>
 		<li><a href="index7gallery.php">Gallery</a></li>
   		<li><a href="index3reg.php">Registration</a></li>
-       <li><a href="myorders.php">My orders</a></li>
+       <!-- <li><a href="myorders.php">My orders</a></li> -->
         <li><a href="index9about.php">About Us</a></li>
 		 <li><a href="index8contact.php">Contact Us</a></li>
 		 <li></li>
@@ -54,7 +54,10 @@
 </div>
 <!-- end page -->
 <div id="footer">
-  </div>
-
+<footer style="background-color:black">
+  <br>
+  <p style="text-align:center;color:white">Copyright &copy; 2021 - All Rights Reserved - <a href="#" style="color:#FFFFFF;">ANCIENT AND ANTIQUE CRAFT</a></p>
+</footer>  
+</div>
 </body>
 </html>

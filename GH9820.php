@@ -7,8 +7,8 @@
 <div id="page">
   <div id="sidebar">
     <div id="logo">
-      <h1><a href="index.php">Ancient and Antique Craft</a></h1>
-      <h2><a href="#">Designed By Team:- SellVintage</a></h2>
+      <h1><a href="#"></a></h1>
+      <h2><a href="index.php">Designed By Team:- SellVintage</a></h2>
     </div>
     <!-- end header -->
 	<br><br>
@@ -36,12 +36,18 @@
      
 	<center><div class="boxed orange">
         <br>
-      	 <center><img src="images/Credit-100-glass-handicraft-color-diversity-crystal-car-perfume-bottle-free-transport-with-10non-slip-mats.jpg" height="200" width="200"><br><br>Product No:GH9820<br><b>Price: Rs-2000/-<br></b>
+      	 <center><img src="images/gv-24665-blow.jpg" height="200" width="200"><br><br>Product Name:Glass decorative<br>Product Specification<br>
+Size:-  5 Inch<br>
+Material:-  Borosil Glass<br>
+Technique:- Hand Made<br>
+Packaging Type:-  Box<br>
+Finishing:- Polished<br>
+Weight:-  100 gm<br><b>Price: Rs-2000/-<br></b>
 		 <b>Cash on Delivery: During 6 - 7 Days <br></b><br>
      <a href="myorders.php">
 		<input type="submit" name="submit" value="Confirm">
   </a>
-	    <a href="index14galleryglass.php">
+	    <a href="index14.1galleryglass.php">
       <input type="reset" name="reset" value="Cancel">
     </a>
 
@@ -54,6 +60,11 @@
 </div>
 <!-- end page -->
 <div id="footer">
-  </div>
+<footer style="background-color:black">
+  <br>
+  <p style="text-align:center;color:white">Copyright &copy; 2021 - All Rights Reserved - <a href="#" style="color:#FFFFFF;">ANCIENT AND ANTIQUE CRAFT</a></p>
+</footer>  
+</div>
+
 </body>
 </html>

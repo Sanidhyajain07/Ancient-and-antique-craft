@@ -7,8 +7,8 @@
 <div id="page">
   <div id="sidebar">
     <div id="logo">
-      <h1><a href="index.php">Ancient and Antique Craft</a></h1>
-      <h2><a href="#">Designed By Team:- SellVintage</a></h2>
+      <h1><a href="#"></a></h1>
+      <h2><a href="index.php">Designed By Team:- SellVintage</a></h2>
     </div>
     <!-- end header -->
 	<br><br>
@@ -36,11 +36,17 @@
     
 	<center><div class="boxed orange">
         <br>
-		  <img src="images/Capture1.JPG" height="200" width="75"><br><br>Product No:GH9821<br><b>Price: Rs-1000/-<br><br><b>Cash on Delivery: During 6 - 7 Days <br></b><br>
+		  <img src="images/24.jpeg" height="200" width="200"><br><br>Dolphin Pair</br><b>Price: Rs-4000/-<br>Product Specification<br>
+Height:-  18.5 Inch<br>
+Width:-  8.5 cm<br>
+Type: - Showpiece<br>
+Material:-  Transparent Glass<br>
+Finishing:- Polished<br>
+Weight:-50 gm<br><br><b>Cash on Delivery: During 6 - 7 Days <br></b><br>
 		<a href="myorders.php">
     <input type="submit" name="submit" value="Confirm">
   </a>
-	    <a href="index14galleryglass.php">
+	    <a href="index14.1galleryglass.php">
       <input type="reset" name="reset" value="Cancel">
     </a>
 
@@ -52,6 +58,10 @@
 </div>
 <!-- end page -->
 <div id="footer">
-  </div>
+<footer style="background-color:black">
+  <br>
+  <p style="text-align:center;color:white">Copyright &copy; 2021 - All Rights Reserved - <a href="#" style="color:#FFFFFF;">ANCIENT AND ANTIQUE CRAFT</a></p>
+</footer>  
+</div>
 </body>
 </html>

@@ -7,8 +7,8 @@
 <div id="page">
   <div id="sidebar">
     <div id="logo">
-      <h1><a href="index.php">Ancient and Antique Craft</a></h1>
-      <h2><a href="#">Designed By Team:- SellVintage</a></h2>
+     <h1><a href="#"></a></h1>
+      <h2><a href="index.php">Designed By Team:- SellVintage</a></h2>
     </div>
     <!-- end header -->
 	<br><br>
@@ -40,7 +40,12 @@
 	  <center><div class="boxed orange">
         <br>
       	 <center><img src="images/26-(16)1.jpg" height="200" width="200"><br><br>Product No:MH8820<br><b>Price: Rs-20000/-<br></b>
-		 <b>Cash on Delivery: During 6 - 7 Days <br></b><br>
+		 <b>Cash on Delivery: During 6 - 7 Days <br>Specifications:<br>
+Product: Baby Krishna<br> 
+Size:4.5 Inches<br>
+Style: Krishna Sitting On Shank<br>
+Origin: Aligarh, Uttar Pradesh<br>
+Care: Don't wash, use dry cotton cloth to remove dirt.<br></b><br>
 		<a href="myorders.php">
     <input type="submit" name="submit" value="Confirm">
   </a>
@@ -60,6 +65,10 @@
 </div>
 <!-- end page -->
 <div id="footer">
-  </div>
+<footer style="background-color:black">
+  <br>
+  <p style="text-align:center;color:white">Copyright &copy; 2021 - All Rights Reserved - <a href="#" style="color:#FFFFFF;">ANCIENT AND ANTIQUE CRAFT</a></p>
+</footer>  
+</div>
 </body>
 </html>

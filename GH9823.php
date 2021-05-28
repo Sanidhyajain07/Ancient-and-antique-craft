@@ -7,8 +7,8 @@
 <div id="page">
   <div id="sidebar">
     <div id="logo">
-      <h1><a href="index.php">Ancient and Antique Craft</a></h1>
-      <h2><a href="#">Designed By Team:- SellVintage</a></h2>
+      <h1><a href="#"></a></h1>
+      <h2><a href="index.php">Designed By Team:- SellVintage</a></h2>
     </div>
     <!-- end header -->
 	<br><br>
@@ -36,18 +36,25 @@
     
 	<center><div class="boxed orange">
         <br>
-	    <img src="images/Glass-Handicraft_250x250.jpg" height="250" width="250"><br><br>Product No:GH8823<br><b>Price: Rs-2500/-</b><br><b> Cash on Delivery: During 6 - 7 Days</b></b><br>
+	    <img src="images/Glass-Handicraft_250x250.jpg" height="250" width="250"><br><br>Product Name:Roman Glass<br><br>Specifications:
+Size:4.5 Inches<br>
+Style: Designing on glass<br>
+Origin: Egypt<br>
+Care: Don't wash, use dry cotton cloth to remove dirt.<br><b>Price: Rs-2500/-</b><br><b> Cash on Delivery: During 6 - 7 Days</b></b><br>
 <br>
-		<a href="myorders.php">
+		
+
+    <a href="myorders.php">
     <input type="submit" name="submit" value="Confirm">
   </a>
-  <a href="index14.1galleryglass.php">
+  </form> 
+  <a href="index14galleryglass.php">
 	    <input type="reset" name="reset" value="Cancel">
     </a>
 
     </div>
 	</center>
-    
+   
 	</div>
   </div>
   <!-- end content -->
@@ -55,6 +62,14 @@
 </div>
 <!-- end page -->
 <div id="footer">
-  </div>
+<footer style="background-color:black">
+  <br>
+  <p style="text-align:center;color:white">Copyright &copy; 2021 - All Rights Reserved - <a href="#" style="color:#FFFFFF;">ANCIENT AND ANTIQUE CRAFT</a></p>
+</footer>  
+</div>
+
+
+
 </body>
 </html>
+

@@ -1,14 +1,16 @@
 <html>
 <head>
 <title>Ancient and Antique Craft</title>
+<!-- <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> -->
 <link href="default.css?v=<?php echo time();?>" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div id="page">
   <div id="sidebar">
     <div id="logo">
-      <h1><a href="index.php">Ancient and Antique Craft</a></h1>
-      <h2><a href="#">Designed By Team:- SellVintage</a></h2>
+      <h1><a href="#"></a></h1>
+      <h2><a href="index.php">Designed By Team:- SellVintage</a></h2>
     </div><br><br>
     <!-- end header -->
     <div id="menu">
@@ -40,7 +42,11 @@
   </div>
   <!-- end sidebar -->
   <div id="content">
-    <div><img src="images/rajasthan-handicraft-rajasthan.jpg" alt="" width="740" height="220" /></div>
+    <div><img src="images/10.jpeg" alt="" width="740" height="220" /></div>
+    
+
+
+
     <div class="boxed">
       <h1 class="title2"><center>Welcome to Ancient and Antique Craft</center></h1><br>
       <p><strong>What is Ancient and Antique Craft ?</strong><br><br></p>
@@ -71,8 +77,12 @@
   <div style="clear: both;">&nbsp;</div>
 </div>
 <!-- end page -->
+
 <div id="footer">
-  
+<footer style="background-color:black">
+  <br>
+  <p style="text-align:center;color:white">Copyright &copy; 2021 - All Rights Reserved - <a href="#" style="color:#FFFFFF;">ANCIENT AND ANTIQUE CRAFT</a></p>
+</footer>  
 </div>
 </body>
 </html>

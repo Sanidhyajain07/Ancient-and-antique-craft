@@ -21,7 +21,7 @@
 		 <input type="text" id="sbox" name="serial" placeholder="ENTER SERIAL NO TO BE SEARCHED...">
 						<br><br>
 						<input type="submit" name="submit" id="sbtn" value="SEARCH">
-						<input type="button" id="sbtn" value="NEW RECORD" />
+						<!-- <input type="button" id="sbtn" value="NEW RECORD" /> -->
 					</form>
 				</td>
 				<td></td>

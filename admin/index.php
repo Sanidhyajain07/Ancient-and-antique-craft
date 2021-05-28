@@ -7,13 +7,13 @@
 <div id="page">
   <div id="sidebar">
     <div id="logo">
-      <h1><a href="index.php">Ancient and Antique Craft</a></h1>
-      <h2><a href="#">Designed By:- SellVintage</a></h2>
+      <h1><a href="#"></a></h1>
+      <h2><a href="index.php">Designed By Team:- SellVintage</a></h2>
 	    
     </div>
     <!-- end header -->
       <!-- end menu -->
-  <img src="images/b4.png" width="240px" height="400px">
+  <center><img src="images/nb4.png" width="200px" height="300px"></center>
   </div>
   <!-- end sidebar -->
   <div id="content">
@@ -31,7 +31,7 @@
 <tr><td align="center">User Name</td></tr>
 <tr><td align="center"><input type="text" name="user" placeholder="Enter User Name" style="border-radius: 20px; text-align:center;  height:25px" size="25"/></td></tr>
 <tr><td align="center">Password</td></tr>
-<tr><td align="center"><input type="text"  name="pass" placeholder="Enter Password" style="border-radius: 20px; text-align:center;  height:25px" size="25"/></td></tr>
+<tr><td align="center"><input type="Password"  name="pass" placeholder="Enter Password" style="border-radius: 20px; text-align:center;  height:25px" size="25"/></td></tr>
 <tr><td colspan="2" align="center"><a href=""><input type="submit" name="submit" value="LOGIN" /></a></td></tr>
 <tr>
 

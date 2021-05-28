@@ -20,8 +20,8 @@
 $id=$_GET['id'];
 
 $sql="SELECT * FROM signup WHERE id='$id'";
-$result=mysqli_query($sql);
-$row=mysqli_fetch_array($result);
+$result=mysql_query($sql);
+$row=mysql_fetch_array($result);
 {
 	
 ?>

@@ -82,8 +82,8 @@ function f_msg(f2)
 <div id="page">
   <div id="sidebar">
     <div id="logo">
-      <h1><a href="index.php">Ancient and Antique Craft</a></h1>
-      <h2><a href="#">Designed By:- SellVintage</a></h2>
+      <h1><a href="#"></a></h1>
+      <h2><a href="index.php">Designed By Team:- SellVintage</a></h2>
     </div>
 	<br>
     <!-- end header -->
@@ -153,7 +153,11 @@ function f_msg(f2)
 </div>
 <!-- end page -->
 <div id="footer">
-  </div>
+<footer style="background-color:black">
+  <br>
+  <p style="text-align:center;color:white">Copyright &copy; 2021 - All Rights Reserved - <a href="#" style="color:#FFFFFF;">ANCIENT AND ANTIQUE CRAFT</a></p>
+</footer>  
+</div>
 </body>
 </html>
 
