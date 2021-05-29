@@ -23,10 +23,12 @@
     <center><h3><font size="+5" color="#800000"><b>What Do You Wanna Do</b></font></h3></center>
 	<center><div class="boxed orange">
         <br>
-      <table><tr><td><a href="search.php" style="text-decoration:none;"><h3>1. Search Customer Record</h3></a><br></td></tr>
-	  <tr><td><a href="contact.php" style="text-decoration:none;"><h3>2. Contact Info</h3></a><br></td></tr>
-	  <tr><td><a href="reg.php" style="text-decoration:none;"><h3>3. Registration Record </h3></a><br></td></tr>
-	  <tr><td><a href="products.php" style="text-decoration:none;"><h3>4. Product Record</h3></a><br></td></tr><tr><td><a href="index.php" style="text-decoration:none;"><h3>5. Logout</h3></a></td></tr>
+      <table>
+	  <tr><td><a href="contact.php" style="text-decoration:none;"><h3>1. Feedback Info</h3></a><br></td></tr>
+	  <tr><td><a href="reg.php" style="text-decoration:none;"><h3>2. Registration Record </h3></a><br></td></tr>
+	  <tr><td><a href="products.php" style="text-decoration:none;"><h3>3. Product Record</h3></a><br></td></tr>
+    <tr><td><a href="order.php" style="text-decoration:none;"><h3>4. Orders</h3></a><br></td></tr>
+    <tr><td><a href="index.php" style="text-decoration:none;"><h3>5. Logout</h3></a></td></tr>
 	  </table>  
     </div></center>
     </div>

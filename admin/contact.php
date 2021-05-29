@@ -20,7 +20,7 @@
     <div><img src="images/rajasthan-handicraft-rajasthan.jpg" alt="" width="740" height="220" /></div>
     <div class="boxed">
     <h1 class="title2"><center>Welcome to Ancient and Antique Craft</center></h1><br><br>
-    <center><h3><font size="+3" color="#800000"><b>Contact Record Display</b></font></h3></center>
+    <center><h3><font size="+3" color="#800000"><b>Feedback Record Display</b></font></h3></center>
 	<div class="boxed orange">
     
 	<?php

@@ -376,7 +376,7 @@ $address = $_POST['address'];
 
 if(mysqli_query($con,$query))
 {
-	echo "<script> alert('$uname , Successfully Completed Registration Form One Record Inserted');</script><br>";
+	echo "<script> alert('$username , Successfully Completed Registration Form One Record Inserted');</script><br>";
 	
 }
 	 

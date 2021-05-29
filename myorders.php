@@ -148,20 +148,20 @@ mysqli_close($con);
 ?>
 <table height="200px" style="color:#FFFFFF" width="400px"  cellspacing="10px" cellpadding="60px">
 <tr><td>Name:</td>
-<td>&nbsp;&nbsp;&nbsp;<input type="text" name="name" onBlur="f_name(f2);" placeholder="Enter Your Name"  style="border-radius:20px; text-align:center; width:220px; height:30px;"/></td></tr>
+<td>&nbsp;&nbsp;&nbsp;<input type="text" name="name" onBlur="f_name(f2);" placeholder="Enter Your Name"  style="border-radius:0px; text-align:center; width:220px; height:30px;"/></td></tr>
 
 <tr><td>Phone No:</td>
-<td>&nbsp;&nbsp;&nbsp;<input type="text" name="phone" onBlur="f_phone(f2);"  style="border-radius:20px; width:220px; height:30px; text-align:center;" placeholder="Enter Your Phone No"/></td></tr>
+<td>&nbsp;&nbsp;&nbsp;<input type="text" name="phone" onBlur="f_phone(f2);"  style="border-radius:0px; width:220px; height:30px; text-align:center;" placeholder="Enter Your Phone No"/></td></tr>
 
 <tr><td>Email-Id</td>
-<td>&nbsp;&nbsp;&nbsp;<input type="email" name="email" onBlur="f_email(f2);"  style="border-radius:20px; text-align:center;width:220px; height:30px;" placeholder="Enter Your Email-Id"/></td></tr>
+<td>&nbsp;&nbsp;&nbsp;<input type="email" name="email" onBlur="f_email(f2);"  style="border-radius:0px; text-align:center;width:220px; height:30px;" placeholder="Enter Your Email-Id"/></td></tr>
 
 
 <tr><td>Address:</td>
-<td>&nbsp;&nbsp;&nbsp;<textarea name="add"  rows="3" cols="29" onBlur="f_add(f2);"  style="border-radius:20px; text-align:center;" placeholder= "Enter Your Address"></textarea></td></tr>
+<td>&nbsp;&nbsp;&nbsp;<textarea name="add"  rows="3" cols="29" onBlur="f_add(f2);"  style="border-radius:0px; text-align:center;" placeholder= "Enter Your Address"></textarea></td></tr>
  
  <tr><td>Product Name:</td>
-<td>&nbsp;&nbsp;&nbsp;<input type="text" name="pname" onBlur="f_name(f2);" placeholder="Enter Your Product Name"  style="border-radius:20px; text-align:center; width:220px; height:30px;"/></td></tr>
+<td>&nbsp;&nbsp;&nbsp;<input type="text" name="pname" onBlur="f_name(f2);" placeholder="Enter Your Product Name"  style="border-radius:0px; text-align:center; width:220px; height:30px;"/></td></tr>
 <!-- <tr><td>Message:</td>
 <td>&nbsp;&nbsp;&nbsp;<textarea name="msg" rows="3" placeholder="    Enter Your Message"  cols="29" style="border-radius:20px; text-align:center;" onBlur="f_msg(f2);"></textarea></td></tr> -->
 <tr><td>  </td><td>&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;<input type="submit" name="submit"  value="submit"></td></tr>

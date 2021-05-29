@@ -66,8 +66,7 @@
         <h2 class="title3">Services:</h2>
         <table style="color:#FFFFFF" cellpadding="5px" cellspacing="5px" align="center">
 		<tr><td>1. Cash on delivery</td></tr>
-          <tr><td>2. You can also use credit card</td></tr>
-		  </table>
+    	  </table>
         
       </div>
       <div style="clear: both;">&nbsp;</div>
