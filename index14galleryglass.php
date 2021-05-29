@@ -122,7 +122,7 @@ button:hover{
       Roman Glass</h1>
       </div>
       <div class="des">
-       <p>As a decorative and functional medium, glass was extensively developed in Egypt and Assyria.<br> Glassblowing was perhaps invented in the 1st century BC, and featured heavily in Roman glass, which was highly developed. <br>with forms such as the cage cup for a luxury market.</p>
+       <p>As a decorative and functional medium, glass was extensively developed in Egypt and Assyria.<br> Glassblowing was perhaps invented in the 1st century BC, and featured heavily in Roman glass, which was highly developed. <br>with forms such as the cage cup for a luxury market.<br>The entire range of products represents true essence of Indian traditional handicrafts.</p>
       <button><a href="GH9823.php">BUY THIS</a></button>
       </div>
       </div>

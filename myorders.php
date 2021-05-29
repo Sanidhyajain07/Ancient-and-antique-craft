@@ -84,8 +84,7 @@ function f_email(f2)
         <li><a href="index2.php">Products</a></li>
 		<li><a href="index7gallery.php">Gallery</a></li>
   		<li><a href="index3reg.php">Registration</a></li>
-       <!-- <li><a href="myorders.php">My orders</a></li> -->
-        <li><a href="index9about.php">About Us</a></li>
+      <li><a href="index9about.php">About Us</a></li>
 		 <li><a href="index8contact.php">Contact Us</a></li>
 		 <li></li>
 		       </ul>
@@ -132,7 +131,7 @@ $Product = $_POST['pname'];
 
 if(mysqli_query($con,$query))
 {
-  echo "<script> alert('$Product , Successfully Completed your order ');</script><br>";
+  echo "<script> alert('$Name , Successfully Completed your order ');</script><br>";
   
 }
    
@@ -172,21 +171,9 @@ mysqli_close($con);
 </form>
 </div>
 
-     	   <!-- <center><h2>Gallery:</h2></center>
-	 -->
-    <!-- <div class="boxed orange">
-	<center><div class="boxed orange">
-        <br>
-      <table><tr><td><a href="index14galleryglass.php" style="text-decoration:none;"><h3>1. Glass craft</h3></a><br></td></tr>
-	  <tr><td><a href="index12gallerymarble.php" style="text-decoration:none;"><h3>2. Marble craft</h3></a><br></td></tr>
-	  <tr><td><a href="index13gallerywood.php" style="text-decoration:none;"><h3>3. Wood craft</h3></a><br></td></tr>
-	  <tr><td><a href="index11gallerybrass.php" style="text-decoration:none;"><h3>4. Brass craft</h3></a></td></tr></table>  
-    </div></center>
-	  </div> -->
-	  
-      <div style="clear: both;">&nbsp;</div>
-    </div>
-  </div>
+<div style="clear: both;">&nbsp;</div>
+</div>
+</div>
   <!-- end content -->
   <div style="clear: both;">&nbsp;</div>
 </div>

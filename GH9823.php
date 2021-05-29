@@ -42,12 +42,9 @@ Style: Designing on glass<br>
 Origin: Egypt<br>
 Care: Don't wash, use dry cotton cloth to remove dirt.<br><b>Price: Rs-2500/-</b><br><b> Cash on Delivery: During 6 - 7 Days</b></b><br>
 <br>
-		
-
-    <a href="myorders.php">
+		<a href="myorders.php">
     <input type="submit" name="submit" value="Confirm">
-  </a>
-  </form> 
+    </a> 
   <a href="index14galleryglass.php">
 	    <input type="reset" name="reset" value="Cancel">
     </a>
@@ -73,3 +70,8 @@ Care: Don't wash, use dry cotton cloth to remove dirt.<br><b>Price: Rs-2500/-</b
 </body>
 </html>
 
+<?php
+     session_start();
+     session_register('variable_name');
+     $_SESSION['variable_name']=variable_value;
+?>
